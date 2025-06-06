@@ -1,16 +1,20 @@
-# ap2flutter
+# 📱 Pokédex Flutter App
 
-A new Flutter project.
+Este é um aplicativo desenvolvido em **Flutter** como parte da disciplina de **Desenvolvimento de Sistemas Móveis**.  
+O objetivo do projeto é consumir uma API externa de Pokémon e exibir uma lista interativa com detalhes dos personagens.
 
-## Getting Started
+## 🔍 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- ✅ Listagem de Pokémons
+- ✅ Busca por nome
+- ✅ Exibição de imagem, altura, peso e tipo
+- ✅ Detalhes individuais de cada Pokémon
+- ✅ Interface responsiva e moderna
 
-A few resources to get you started if this is your first Flutter project:
+## 🧪 Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- [Pokédex JSON API](https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json)
+- `http` para requisições HTTP
+- `FutureBuilder` para consumo assíncrono
